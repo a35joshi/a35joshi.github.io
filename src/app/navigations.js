@@ -7,7 +7,7 @@ export const navigations = [
   {
     name: "Products",
     icon: "description",
-    children: [
+    children: [ 
       {
         name: "Tea",
         path: "/products/tea",
