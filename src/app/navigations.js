@@ -10,29 +10,29 @@ export const navigations = [
     children: [
       {
         name: "Tea",
-        path: "/forms/basic",
-        icon: "home"
+        path: "/products/tea",
+        icon: "free_breakfast"
       },
       {
         name: "Indian Snacks",
-        path: "/forms/editor",
-        iconText: "E"
+        path: "/products/indian-snacks",
+        icon: "fastfood"
       }
     ]
   },  
   {
     name: "About Us",
-    path: "/home",
-    icon: "home"
+    path: "/about-us",
+    icon: "info"
   },
   {
     name: "Contact Us",
-    path: "/home",
-    icon: "home"
+    path: "/contact-us",
+    icon: "contact_support"
   },
   {
     name: "Gallery",
-    path: "/home",
-    icon: "home"
+    path: "/gallery",
+    icon: "image"
   },
 ];

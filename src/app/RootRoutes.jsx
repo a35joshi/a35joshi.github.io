@@ -15,26 +15,12 @@ const redirectRoute = [
   {
     path: "/",
     exact: true,
-    component: () => <Redirect to="/dashboard/analytics" />
-  }
-];
-
-const errorRoute = [
-  {
-    component: () => <Redirect to="/session/404" />
+    component: () => <Redirect to="/home" />
   }
 ];
 
 const routes = [
-  ...sessionRoutes,
-  ...dashboardRoutes,
-  ...materialRoutes,
-  ...utilitiesRoutes,
-  ...dragAndDropRoute,
-  ...formsRoutes,
-  ...mapRoutes,
   ...redirectRoute,
-  ...errorRoute
 ];
 
 export default routes;

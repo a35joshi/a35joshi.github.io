@@ -87,11 +87,6 @@ class Layout1Sidenav extends Component {
     this.props.logoutUser();
   };
 
-  renderLogoSwitch = () => (
-    // Open Brand component file to replace logo and text
-    <Brand/>
-  );
-
   render() {
     let { theme, settings } = this.props;
     const sidenavTheme =
@@ -104,7 +99,7 @@ class Layout1Sidenav extends Component {
           <div className="sidenav__hold">
             {(
               <Fragment>
-                {this.renderLogoSwitch()}
+                <Brand/>
                 <Sidenav/>
               </Fragment>
             )}
