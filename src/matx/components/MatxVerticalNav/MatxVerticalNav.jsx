@@ -25,14 +25,14 @@ class MatxVerticalNav extends Component {
     return data?.map((item, index) => {
       if (item.children) {
         return (
-          <MatxVerticalNavExpansionPanel item={item} key={index}>
+          <MatxVerticalNavExpansionPanel item={item} key={index} isChild={isChild}>
             {this.renderLevels(item.children, true)}
           </MatxVerticalNavExpansionPanel>
         );
       } else {
         return (
           <NavLink key={index} to={item.path} className="nav-item">
-            <TouchRipple key={item.name} name="child" className="w-100" style={{ paddingLeft: isChild && '23%'}}>
+            <TouchRipple key={item.name} name="child" className="w-100" style={{ paddingLeft: isChild && `${item.level*23}%`}}>
               {(() => {
                 if (item.icon) {
                   return (

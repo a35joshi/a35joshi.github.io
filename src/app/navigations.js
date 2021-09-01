@@ -10,13 +10,27 @@ export const navigations = [
     children: [ 
       {
         name: "Tea",
-        path: "/products/tea",
-        icon: "free_breakfast"
+        icon: "free_breakfast",
+        children: [ 
+          {
+            name: "Simondou",
+            path: "/products/simondou",
+            level: 2,
+          },
+        ],
+        level: 1,
       },
       {
         name: "Indian Snacks",
-        path: "/products/indian-snacks",
-        icon: "fastfood"
+        icon: "fastfood",
+        children: [ 
+          {
+            name: "Vishnu",
+            path: "/products/vishnu",
+            level: 2,
+          },
+        ],
+        level: 1,
       }
     ]
   },  

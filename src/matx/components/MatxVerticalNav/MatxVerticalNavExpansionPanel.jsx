@@ -60,8 +60,8 @@ class MatxVerticalNavExpansionPanel extends Component {
   }
   render() {
     let { collapsed } = this.state;
-    let { classes, children } = this.props;
-    let { name, icon, badge } = this.props.item;
+    let { classes, children, isChild } = this.props;
+    let { name, icon, badge, level } = this.props.item;
     return (
       <div>
         <TouchRipple
@@ -70,6 +70,7 @@ class MatxVerticalNavExpansionPanel extends Component {
             "open": !collapsed
           })}
           onClick={this.handleClick}
+          style={{ paddingLeft: isChild && `${level*23}%`}}
         >
           <div>
             <Icon className="text-middle item-icon">{icon}</Icon>
