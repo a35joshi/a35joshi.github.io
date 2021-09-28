@@ -16,6 +16,13 @@ const productRoutes = [
     }),
     auth: authRoles.admin
   },
+  {
+    path: "/products/garden",
+    component: MatxLoadable({
+      loader: () => import("./IndianSnacks/Garden")
+    }),
+    auth: authRoles.admin
+  },
 ];
 
 export default productRoutes;

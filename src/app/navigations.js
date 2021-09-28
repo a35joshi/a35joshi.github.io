@@ -29,6 +29,11 @@ export const navigations = [
             path: "/products/vishnu",
             level: 2,
           },
+          {
+            name: "Garden",
+            path: "/products/garden",
+            level: 2,
+          },
         ],
         level: 1,
       }

@@ -1,10 +1,10 @@
 import React from "react";
-import chakali from 'images/indian_snacks/chakali.jpeg';
-import chivada from 'images/indian_snacks/chivada.jpeg';
-import garlic_sev from 'images/indian_snacks/garlic_sev.jpeg';
-import plain_sev from 'images/indian_snacks/plain_sev.jpeg';
-import shankarpali from 'images/indian_snacks/shankarpali.jpeg';
-import sale from 'images/indian_snacks/sale.jpeg';
+import chakali from 'images/indian_snacks/vishnu/chakali.jpeg';
+import chivada from 'images/indian_snacks/vishnu/chivada.jpeg';
+import garlic_sev from 'images/indian_snacks/vishnu/garlic_sev.jpeg';
+import plain_sev from 'images/indian_snacks/vishnu/plain_sev.jpeg';
+import shankarpali from 'images/indian_snacks/vishnu/shankarpali.jpeg';
+import sale from 'images/indian_snacks/vishnu/sale.jpeg';
 
 const Vishnu = () => {
   return (
