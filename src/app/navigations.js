@@ -49,9 +49,9 @@ export const navigations = [
     path: "/contact-us",
     icon: "contact_support"
   },
-  {
-    name: "Gallery",
-    path: "/gallery",
-    icon: "image"
-  },
+  // {
+  //   name: "Gallery",
+  //   path: "/gallery",
+  //   icon: "image"
+  // },
 ];
